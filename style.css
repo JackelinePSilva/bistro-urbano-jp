@@ -1,0 +1,148 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header h1{
+    margin: 30px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 10x;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 100px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;   
+}
+
+li:hover{
+    background-color: darkgrey;
+}
+
+.hero, .about, .menu, .contact{
+    padding: 20px;
+    text-align: center;
+}
+
+.hero{
+    background-color: #f4f4f4;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+
+}
+
+.menu-item img{
+    width: 100px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-content img{
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about-text{
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 200px;
+}
+
+h3{
+    background-color: #333;
+    color: white;
+}
+
+.video-presentation {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.video-presentation video {
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.price{
+    position: absolute;
+    right: 20px;
+    left: 60%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logo img{
+    max-width: 100px;
+    border-radius: 100px;
+    display: flex;
+    margin: 10px;
+    position: absolute;
+}
+
+.log-contact img{
+    border-radius: 100px;
+    max-width: 50px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.log-contact{
+    background-color: #333;
+    padding: 40px;
+}
+
+.button-rede{
+    width: 50px;
+    padding: 10px;
+    
+}
+
+.contact div{
+    padding: 0;   
+}
