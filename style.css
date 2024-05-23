@@ -86,7 +86,9 @@ footer{
     text-align: center;
     padding: 5px 0;
     margin-top: 200px;
+
 }
+    
 
 h3{
     background-color: #333;
@@ -94,7 +96,7 @@ h3{
 }
 
 .video-presentation {
-    padding: 20px;
+    padding: 10px 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -146,3 +148,4 @@ h3{
 .contact div{
     padding: 0;   
 }
+
